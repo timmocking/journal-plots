@@ -1,0 +1,36 @@
+axes.axisbelow : True
+axes.edgecolor: black
+axes.labelcolor: black
+axes.spines.right: False
+axes.spines.top: False
+axes.grid: True   
+axes.grid.axis: y    
+
+figure.facecolor: white
+figure.dpi: 600
+
+# Font and sizing
+font.family: Courier
+axes.titlesize : 16
+axes.labelsize: 16
+axes.linewidth: 2
+legend.fontsize : 16
+
+## TICKS
+xtick.color: black
+xtick.major.width: 2
+xtick.labelsize: 16
+xtick.direction : out
+xtick.top : False
+xtick.bottom : True
+
+ytick.color: black
+ytick.major.width: 2
+ytick.labelsize: 16
+ytick.direction : out
+ytick.left : True
+ytick.right : False
+
+# Colors
+# Tableau's "Surf & Turf"
+axes.prop_cycle: cycler('color', ['1e434c', 'c99e10', '8d230f', '9b4f0f'])
